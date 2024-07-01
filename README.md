@@ -6,10 +6,11 @@
 My colleagues recently developed a mouse knockout model to decipher neuronal circuits involved in autism spectrum disorder development. In a battery of behavioural testings, potential differences between the wildtype and knockout animals were masked by large variances. Here’s a report on how I applied an unsupervised machine learning approach on the prepulse inhibition dataset.
 
 <blockquote>
-**Prepulse inhibition**
+<b>Prepulse inhibition</b>
 PPI is the neurological ability to react less strongly on a stimulus (pulse) when a weaker stimulus (prepulse) preceeds. PPI usually increases with sound level, but is often attenuated in neurological disorders. Here, the startle response of mice was measured after a 120 db burst of noise. PPI was evaluated by measuring the startle response when a prepulse of 69, 73 or 81 db preceeded the 120 db pulse. As internal control, the startle response was monitored at background noise (back) as well as in pulse-only trials at the beginning (pre) and end (post) of the test. PPI is calculated as
+<br>
 PPI=100*(MaxGP-MaxGPP)/MaxGP where MaxG is the maximum startle response.
-
+<br>
 All animal experiments were approved by the state of Berlin and followed the guidelines and recommendations of the European animal welfare law. No animals were harmed by or during the behaviour testings.
 </blockquote>
 
