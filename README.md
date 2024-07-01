@@ -19,7 +19,7 @@ The PPI methodology assumes that (i) the MaxG values are approx. normally distri
 To characterise the subgroups, I decided to go for a k-means clustering approach using the stats and factoextra packages. The heuristic elbow and silhouette methods from the factoextra package as well as the NbClust() function from the NbClust package predicted k=3 as the optimal number of clusters. Next, I clustered the data using the kmeans() function and calculated the cluster means with aggregate(). This information was assigned to the original dataframe with cbind(). Finally, I plotted the clusters with the fviz_cluster() function and generated a parallel coordinate plot with the ggparcoord() function from the GGally package.
 
 <br>
-<img src="clustering.png" height="400">
+<center></center><img src="clustering.png" height="400"></center>
 <br>
 
 The animals were nicely separated in three clusters (compared to k=2 and k=4) and the parallel coordinate plot revealed that the animals in each cluster are characterised by
